@@ -1,10 +1,5 @@
-local Name = game.Players.LocalPlayer.Name
 local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/lbb-setup/main/string%20setup'))()
-local Spawn = game.Players.LocalPlayer.SpawnCFrame
 local Window = OrionLib:MakeWindow({Name = "Discord server invite"})
-local P = game:GetService'Players'
-local HRP = P.LocalPlayer.Character.HumanoidRootPart
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Tab = Window:MakeTab({
 	Name = "Link",
 	Icon = "rbxassetid://4483362458",
