@@ -11,6 +11,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+
 ---//DISCORD SERVER INVITE 
 Tab4:AddButton({
 	Name = "Copy link to discord",
