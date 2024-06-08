@@ -1,3 +1,42 @@
+local Name = game.Players.LocalPlayer.Name
+local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/lbb-setup/main/string%20setup'))()
+local Spawn = game.Players.LocalPlayer.SpawnCFrame
+local Window = OrionLib:MakeWindow({Name = "Discord server invite"})
+local P = game:GetService'Players'
+local HRP = P.LocalPlayer.Character.HumanoidRootPart
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Tab = Window:MakeTab({
+	Name = "Link",
+	Icon = "rbxassetid://4483362458",
+	PremiumOnly = false
+})
+
+---//DISCORD SERVER INVITE 
+Tab4:AddButton({
+	Name = "Copy link to discord",
+	Callback = function()
+      	setclipboard('https://discord.gg/Y6t5gsug')
+	end
+})
+Tab4:AddLabel("Made by minecraft_minegun#0")
+Tab4:AddLabel("Subscribe to @fallenkingchannel3627")
+
+OrionLib:MakeNotification({
+	Name = "GUI",
+	Content = "Successfully loaded GUI",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+OrionLib:MakeNotification({
+	Name = "GUI",
+	Content = "Copied link to the discord server!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+setclipboard('https://discord.gg/Y6t5gsug')
+OrionLib:Init()
+
 if game.PlaceId == 142823291 then -- Murder Mystery 2
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
 
