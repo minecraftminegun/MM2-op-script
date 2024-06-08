@@ -12,13 +12,14 @@ local Tab = Window:MakeTab({
 })
 
 
----//DISCORD SERVER INVITE 
+---//LINK
 Tab4:AddButton({
 	Name = "Copy link to discord",
 	Callback = function()
       	setclipboard('https://discord.gg/Y6t5gsug')
 	end
 })
+
 Tab4:AddLabel("Made by minecraft_minegun#0")
 Tab4:AddLabel("Subscribe to @fallenkingchannel3627")
 
