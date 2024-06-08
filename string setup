@@ -12,16 +12,16 @@ local Tab = Window:MakeTab({
 })
 
 
----//LINK
-Tab4:AddButton({
+---//DISCORD SERVER INVITE
+Tab:AddButton({
 	Name = "Copy link to discord",
 	Callback = function()
       	setclipboard('https://discord.gg/Y6t5gsug')
 	end
 })
 
-Tab4:AddLabel("Made by minecraft_minegun#0")
-Tab4:AddLabel("Subscribe to @fallenkingchannel3627")
+Tab:AddLabel("Made by minecraft_minegun#0")
+Tab:AddLabel("Subscribe to @fallenkingchannel3627")
 
 OrionLib:MakeNotification({
 	Name = "GUI",
